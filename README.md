@@ -22,11 +22,13 @@ python gui_mesh_smoothing.py
 ## Notes
 | Term | Explanation |
 |------|-------------|
-| .stl input path | Browse and select the .stl input surface mesh |
-| Meshing resolution  | Sets the depth of the octree used for the Poisson surface reconstruction. Must be a value greater than 2. Options are for values between 2 and 10 where larger numbers represent increased resolution. Choose the appropriate value based on the output meshes. |
+| Data type | Choose input data type. Can be either a mesh with .stl format or a point cloud in .npy format |
+| Input data path | Browse and select the input data file |
+| Meshing resolution  | Sets the depth of the octree used for the Poisson surface reconstruction, default value is 8. Must be a value greater than 2. Options are for values between 2 and 10 where larger numbers represent increased resolution. Choose the appropriate value based on the output meshes. |
 | .stl output path | Directory to save the smoothed outout .stl file |
 | Save file name | Smoothed outout .stl file name |
 
+Note: If the input data is a mesh, in addition to saving an output smoothed mesh, a point cloud of the reduced mesh vertices used for creating a smooth mesh is also saved. This is so that if you need to run the surface reconstruction again with a different _Mesh resolution_, you can directly use the already calculated reduced points and not have to rerun that section agian.
 
 ## Sources
 [1]: Qian-Yi Zhou, Jaesik Park, Vladlen Koltun, _Open3D: A Modern Library for 3D Data Processing_, arXiv:1801.09847, 2018
