@@ -1,20 +1,22 @@
 # Surface smoothing
-A program that takes an input .stl surface mesh file and saves a smoothed output .stl file
+This program takes as input a '.stl' file of a rough surface mesh and returns a smoothed surface mesh.
 
 ## Installation
 Clone the repository (or download it's contents manually):
 ```shell
 git clone https://github.com/Bhejazi/surface_smoothing.git
 ```
-Recommended to use Python 3.8 with the libraries in requirments.txt
+Recommended to use Python 3.7 with the libraries in requirments.txt
 
-Install dependencies:
+Navigate to the downloaded folder location adn install dependencies:
 ```shell
 python -m pip install -r requirements.txt
 ```
 
 ## Usage
-The program is usable with a graphical user interface (GUI) in combination with a command line interface for calculation steps
+The program is usable with a graphical user interface (GUI) in combination with a command line interface for calculation steps.
+
+To run the code enter:
 ```shell
 python gui_mesh_smoothing.py
 ```
