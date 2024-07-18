@@ -1,5 +1,5 @@
 # Surface smoothing
-This program takes as input a '.stl' file of a rough surface mesh and returns a smoothed surface mesh.
+This program takes as input a `.stl` file of a rough surface mesh and returns a smoothed surface mesh.
 
 ## Installation
 Clone the repository (or download it's contents manually):
@@ -16,7 +16,7 @@ python -m pip install -r requirements.txt
 ## Usage
 The program is usable with a graphical user interface (GUI) in combination with a command line interface for calculation steps.
 
-To run the code enter:
+To run the program enter:
 ```shell
 python gui_mesh_smoothing.py
 ```
