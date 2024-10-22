@@ -23,7 +23,7 @@ python gui_mesh_smoothing.py
 | Term | Explanation |
 |------|-------------|
 | .stl input path | Browse and select the .stl input surface mesh |
-| Meshing resolution  | Sets the depth of the octree used for the Poisson surface reconstruction. Must be a value greater than 2. Options are for values between 2 and 10 where larger numbers represent increased resolution. Start with 7 and adjust accordingly. |
+| Meshing resolution  | Sets the depth of the octree used for the Poisson surface reconstruction. Must be a value greater than 2. Options are for values between 2 and 10 where larger numbers represent increased resolution. Suggested to start with 7 and adjust accordingly. |
 | .stl output path | Directory to save the smoothed outout .stl file |
 | Save file name | Smoothed outout .stl file name |
 
