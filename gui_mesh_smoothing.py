@@ -61,7 +61,7 @@ browse_button = ttk.Button(root, text="Browse", command=browse_file)
 browse_button.grid(row=1, column=3, padx=5, pady=5)
 
 # Poisson Depth Entry
-poisson_depth_label = ttk.Label(root, text="Meshing resolution♠:")
+poisson_depth_label = ttk.Label(root, text="Meshing resolution:")
 #poisson_depth_label_next_line = ttk.Label(root, text="(>=2, default=8, larger values correspond to higher resolution)")
 poisson_depth_label.grid(row=2, rowspan=1, column=0, sticky=tk.W, padx=5, pady=5)
 #poisson_depth_label_next_line.grid(row=2, rowspan=1, column=0, sticky=tk.W, padx=5, pady=5)
