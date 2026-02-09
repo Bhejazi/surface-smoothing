@@ -8,7 +8,7 @@ git clone https://github.com/Bhejazi/surface_smoothing.git
 ```
 Recommended to use Python 3.7 with the libraries in requirments.txt
 
-Navigate to the downloaded folder location adn install dependencies:
+Navigate to the downloaded folder location and install dependencies:
 ```shell
 python -m pip install -r requirements.txt
 ```
