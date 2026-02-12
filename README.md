@@ -33,7 +33,7 @@ python mesh_smoothing_gui.py
 ## GUI opperation
 | Term | Explanation |
 |------|-------------|
-| Input STL File | Browse and select the input .stl file |
+| Input `.stl` File | Browse and select the input `.stl` file |
 | Output Folder | Output path for each iteration’s output |
 | Output File Name | Output file name base |
 | Meshing resolution (Poisson depth)  | Sets the depth of the octree used for the Poisson surface reconstruction. Default is 7 and adjust accordingly. |
