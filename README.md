@@ -6,6 +6,7 @@ Clone the repository (or download it's contents manually):
 ```shell
 git clone https://github.com/Bhejazi/surface_smoothing.git
 ```
+Navigate to the code working directory.
 
 Create your new environemnt with Conda:
 ```shell
