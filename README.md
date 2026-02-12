@@ -13,14 +13,9 @@ Create your new environemnt with Conda:
 conda create -n mesh-smth --file conda-requirements.txt -c conda-forge
 ```
 
-Activate the Conda env:
+Activate the the Conda environemnt:
 ```shell
 conda activate mesh-smth
-```
-
-Install required libraries:
-```shell
-python -m pip install -r requirements.txt
 ```
 
 ## Usage
@@ -31,7 +26,7 @@ To run the program enter:
 python mesh_smoothing_gui.py
 ```
 
-## GUI opperation
+## GUI operation
 | Term | Explanation |
 |------|-------------|
 | Input `.stl` File | Browse and select the input `.stl` file |
@@ -43,7 +38,7 @@ python mesh_smoothing_gui.py
 
 ➡️ Click Run Smoothing to begin
 
-Watch the progress bar,
+Progress bar shows percentage of completion,
 Use Cancel to abort.
 
 Outputs will be saved as:
