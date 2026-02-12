@@ -27,7 +27,7 @@ The program runs using a graphical user interface (GUI).
 
 To run the program enter:
 ```shell
-python gui_mesh_smoothing.py
+python mesh_smoothing_gui.py
 ```
 
 ## GUI opperation
