@@ -8,7 +8,7 @@ git clone https://github.com/Bhejazi/surface_smoothing.git
 ```
 📁 Navigate to the code working directory.
 
-Create your new environemnt with Conda:
+Create your new environemnt with Conda and install required libraries:
 ```shell
 conda create -n mesh-smth --file conda-requirements.txt -c conda-forge
 ```
