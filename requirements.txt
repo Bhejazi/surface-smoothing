@@ -1,0 +1,7 @@
+numpy>=1.24
+numpy-stl>=3.1.1
+open3d>=0.17.0
+pyqt>=5.15
+vtk>=9.2
+pyvista>=0.43
+pyvistaqt>=0.11
