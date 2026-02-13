@@ -2,20 +2,22 @@
 This program takes as input a `.stl` file of a rough surface mesh and returns a smoothed surface mesh.
 
 ## Installation
-Clone the repository (or download it's contents manually):
+### Clone the repository (or download it's contents manually):
 ```shell
 git clone https://github.com/Bhejazi/surface_smoothing.git
 ```
-📁 Navigate to the code working directory.
 
-Create your new environemnt with Conda and install required libraries:
+### Create your new environemnt with Conda and activate the environment:
 ```shell
-conda create -n mesh-smth --file conda-requirements.txt -c conda-forge
+conda create --name mesh-smoothing python=3.11
+conda activate mesh-smoothing
 ```
 
-Activate the the Conda environemnt:
-```shell
-conda activate mesh-smth
+### 📁 Navigate to the code working directory.
+
+### Install required libraries
+```
+python -m pip install -r requirements.txt
 ```
 
 ## Usage
