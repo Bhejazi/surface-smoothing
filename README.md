@@ -1,6 +1,8 @@
 # Surface smoothing
 This program takes as input a `.stl` file of a rough surface mesh and returns a smoothed surface mesh.
 
+The algorithm used is based off of the work in [2]. The advantage of this approach is that complex structures can be smoothed while preserving the features present in the structure.
+
 ## Installation
 ### Clone the repository (or download it's contents manually):
 ```shell
